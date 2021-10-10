@@ -1,19 +1,23 @@
 import Head from 'next/head';
 import BandsInTown from '../components/BandsInTown';
+
 import PressShot from '../components/PressShot';
+import SoundcloudPlayer from '../components/SoundcloudPlayer';
 
 export default function Home() {
   return (
     <div className='container'>
       <Head>
         <title>HEIRZ</title>
-        <link rel='icon' href='/heirzlogo.png' />
+        <link rel='icon' href='/symbol.svg' />
       </Head>
-
-      <main>
+      <header>
+        <img src='/heirzwhite.png' alt='HEIRZ' className='logo' />
+      </header>
+      <main className='body'>
         <div>
-          <img src='/heirzwhite.png' alt='HEIRZ' className='logo' />
           <PressShot className='pressphoto' />
+          <SoundcloudPlayer className='soundcloudplayer' />
           <BandsInTown className='eventdates' />
         </div>
       </main>

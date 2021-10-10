@@ -2,7 +2,7 @@ const BandsInTown = () => {
   return (
     <div className='eventdates'>
       <script
-        charset='utf-8'
+        charSet='utf-8'
         src='https://widget.bandsintown.com/main.min.js'
       ></script>
       <a

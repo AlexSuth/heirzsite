@@ -1,6 +1,6 @@
 const BandsInTown = () => {
   return (
-    <div className='eventdates'>
+    <div className='flex justify-center p-2 filter grayscale pt-6 '>
       <script
         charSet='utf-8'
         src='https://widget.bandsintown.com/main.min.js'

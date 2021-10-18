@@ -1,7 +1,9 @@
+import SocialToolBar from './SocialToolBar';
+
 const Footer = () => {
   return (
-    <div>
-      <p>Powered By Alex Sutherland Development</p>
+    <div className='flex justify-center '>
+      <SocialToolBar />
     </div>
   );
 };

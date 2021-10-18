@@ -12,7 +12,6 @@ const NavBar = () => {
         <NavLogo />
         <NavDrawerButton />
         <NavBarItems />
-        <SocialToolBar />
       </nav>
     </div>
   );

@@ -26,15 +26,27 @@ const SocialToolBar = () => {
 
   console.log(socials);
   return (
-    <div>
+    <div className=' lg:flex justify-end w-14 md:w-1/12'>
       {socials.map((social, index) => (
-        <div key={social.service}>
-          <Link href={social.link}>
-            <img src={social.icon} alt={social.service} className='icon' />
-          </Link>
-        </div>
+        <Link key={index} href={social.link}>
+          <img
+            src={social.icon}
+            alt={social.service}
+            className='text-sm px-4 py-2 leading-none  cursor-pointer  mt-4 lg:mt-0'
+          />
+        </Link>
       ))}
     </div>
+
+    // <div>
+    //   {socials.map((social, index) => (
+    //     <div key={index}>
+    //       <Link href={social.link}>
+    //         <img src={social.icon} alt={social.service} className='icon' />
+    //       </Link>
+    //     </div>
+    //   ))}
+    // </div>
   );
 };
 

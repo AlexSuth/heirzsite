@@ -6,23 +6,16 @@ import SoundcloudPlayer from '../components/SoundcloudPlayer';
 
 export default function Home() {
   return (
-    <div className='container'>
+    <div>
       <Head>
         <title>HEIRZ</title>
         <link rel='icon' href='/symbol.svg' />
       </Head>
-      <header>
-        <img src='/heirzwhite.png' alt='HEIRZ' className='logo' />
-      </header>
-      <main className='body'>
-        <div>
-          <PressShot className='pressphoto' />
-          <SoundcloudPlayer className='soundcloudplayer' />
-          <BandsInTown className='eventdates' />
-        </div>
-      </main>
 
-      {/* <footer>Powered by Alex Sutherland Design</footer> */}
+      <header>{/* <img src='/heirzwhite.png' alt='HEIRZ' /> */}</header>
+      <main>
+        <div>Home Page</div>
+      </main>
     </div>
   );
 }

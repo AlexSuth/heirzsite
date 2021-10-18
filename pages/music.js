@@ -1,7 +1,9 @@
+import Music from '../components/Music';
+
 const music = () => {
   return (
     <div>
-      <h1>music page</h1>
+      <Music />
     </div>
   );
 };

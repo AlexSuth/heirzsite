@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import SoundCloudPlayer from 'react-player/soundcloud';
 import BandsInTown from '../components/BandsInTown';
 
 import PressShot from '../components/PressShot';
@@ -11,18 +12,10 @@ export default function Home() {
         <title>HEIRZ</title>
         <link rel='icon' href='/symbol.svg' />
       </Head>
-      <header>
-        <img src='/heirzwhite.png' alt='HEIRZ' className='logo' />
-      </header>
-      <main className='body'>
-        <div>
-          <PressShot className='pressphoto' />
-          <SoundcloudPlayer className='soundcloudplayer' />
-          <BandsInTown className='eventdates' />
-        </div>
-      </main>
 
-      {/* <footer>Powered by Alex Sutherland Design</footer> */}
+      <PressShot />
+      <SoundcloudPlayer />
+      <BandsInTown />
     </div>
   );
 }

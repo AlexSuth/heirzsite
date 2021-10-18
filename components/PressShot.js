@@ -1,7 +1,11 @@
 const PressShot = () => {
   return (
-    <div>
-      <img src='/heirzgorge.jpg' alt='HEIRZ' className='pressphoto' />
+    <div className='flex justify-center p-2'>
+      <img
+        className='w-8/12 filter grayscale border-double border-4 border-light-blue-500'
+        src='/heirzgorge.jpg'
+        alt='heirz'
+      />
     </div>
   );
 };

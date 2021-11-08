@@ -17,6 +17,13 @@ const DropDownMenu = ({ isOpen, toggle }) => {
       <Link href='/bio'>
         <h1 className='px-2 py-1 cursor-pointer'>Bio</h1>
       </Link>
+      <a
+        href='https://fanlink.to/HEIRZ'
+        className='flex px-2 py-1'
+        target='_blank'
+      >
+        Music
+      </a>
       <Link href='/contact'>
         <h1 className='px-2 py-1 cursor-pointer'>Contact</h1>
       </Link>

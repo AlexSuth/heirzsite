@@ -8,7 +8,7 @@ const SoundcloudPlayer = () => {
         height='50%'
         playing='true'
         url='https://soundcloud.com/heirz/sets/heirz-digital-alchemy'
-        width='60%'
+        width='90%'
       />
     </div>
   );

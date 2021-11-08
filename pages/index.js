@@ -7,12 +7,11 @@ import SoundcloudPlayer from '../components/SoundcloudPlayer';
 
 export default function Home() {
   return (
-    <div className='container'>
+    <div>
       <Head>
         <title>HEIRZ</title>
         <link rel='icon' href='/symbol.svg' />
       </Head>
-
       <PressShot />
       <SoundcloudPlayer />
       <BandsInTown />

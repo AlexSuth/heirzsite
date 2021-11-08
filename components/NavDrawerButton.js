@@ -1,8 +1,11 @@
-const NavDrawerButton = () => {
+const NavDrawerButton = ({ toggle }) => {
   return (
     <div>
-      <div className='block lg:hidden'>
-        <button className='flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-white hover:border-white'>
+      <div className='block md:hidden'>
+        <button
+          onClick={toggle}
+          className=' transform hover:scale-110 flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-white hover:border-white'
+        >
           <svg
             className='fill-current h-3 w-3'
             viewBox='0 0 20 20'

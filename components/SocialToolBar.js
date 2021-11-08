@@ -24,7 +24,6 @@ const SocialToolBar = () => {
     },
   ];
 
-  console.log(socials);
   return (
     <div>
       <div className=' flex justify-center p-2 pt-8 text-white'>

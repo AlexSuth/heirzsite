@@ -1,29 +1,22 @@
 const BandsInTown = () => {
   return (
-    <div className='flex justify-center p-2 filter grayscale pt-6 '>
+    <div className='justify-center px-8 p-2 filter grayscale pt-6 '>
       <script
-        charSet='utf-8'
+        charset='utf-8'
         src='https://widget.bandsintown.com/main.min.js'
       ></script>
       <a
         class='bit-widget-initializer'
         data-artist-name='HEIRZ'
-        data-display-past-dates='false'
-        data-text-color='#ffffff'
-        data-link-color='#ffffff'
-        data-background-color='#000000'
-        data-display-details='false'
-        data-popup-background-color='#bd10e0'
-        data-link-text-color='#000000'
-        data-separator-color='#ffffff'
-        data-language='en'
         data-font='Helvetica'
-        data-display-local-dates='false'
-        data-auto-style='false'
-        data-display-lineup='false'
-        data-display-play-my-city='true'
-        data-display-limit='15'
-        data-display-start-time='false'
+        data-language='en'
+        data-display-details='false'
+        data-text-color='#ffffff'
+        data-background-color='#000000'
+        data-separator-color='#DDDDDD'
+        data-popup-background-color='#ffffff'
+        data-link-color='#eeecec'
+        data-link-text-color='#000000'
       ></a>
     </div>
   );

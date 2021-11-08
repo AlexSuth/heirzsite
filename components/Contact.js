@@ -4,7 +4,7 @@ const Contact = () => {
       <figure>
         <div className=' px-10'>
           <img
-            className='w-6/12 mx-auto filter grayscale border-double border-4 border-light-blue-500'
+            className='w-10/12 mx-auto filter grayscale border-double border-4 border-light-blue-500'
             src='/heirz-q.jpg'
             alt=''
           />

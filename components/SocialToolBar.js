@@ -15,7 +15,7 @@ const SocialToolBar = () => {
     {
       service: 'soundcloud',
       icon: 'social_svg/Soundcloud.svg',
-      link: 'soundcloud.com/HEIRZ',
+      link: 'https://soundcloud.com/HEIRZ',
     },
     {
       service: 'twitter',

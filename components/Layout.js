@@ -5,7 +5,7 @@ import DropDownMenu from './DropDownMenu';
 import React, { useState, useEffect } from 'react';
 
 const Layout = ({ children }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggle = () => {
     console.log('You clicked');

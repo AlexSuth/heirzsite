@@ -12,20 +12,26 @@ const DropDownMenu = ({ isOpen, toggle }) => {
       onClick={toggle}
     >
       <Link href='/'>
-        <h1 className='px-2 py-1 cursor-pointer'>Home</h1>
+        <h1 className='px-2 py-1 cursor-pointer transform hover:scale-95'>
+          Home
+        </h1>
       </Link>
       <Link href='/bio'>
-        <h1 className='px-2 py-1 cursor-pointer'>Bio</h1>
+        <h1 className='px-2 py-1 cursor-pointer transform hover:scale-95'>
+          Bio
+        </h1>
       </Link>
       <a
         href='https://fanlink.to/HEIRZ'
-        className='flex px-2 py-1'
+        className='flex px-2 py-1 transform hover:scale-95'
         target='_blank'
       >
         Music
       </a>
       <Link href='/contact'>
-        <h1 className='px-2 py-1 cursor-pointer'>Contact</h1>
+        <h1 className='px-2 py-1 cursor-pointer transform hover:scale-95'>
+          Contact
+        </h1>
       </Link>
     </div>
   );

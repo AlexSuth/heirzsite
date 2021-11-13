@@ -1,4 +1,3 @@
-import { Container } from 'postcss';
 import Bio from '../components/Bio';
 
 const bio = () => {

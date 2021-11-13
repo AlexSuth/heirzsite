@@ -1,29 +1,6 @@
 import Link from 'next/link';
 
-const SocialToolBar = () => {
-  const socials = [
-    {
-      service: 'instagram',
-      icon: 'social_svg/Instagram.svg',
-      link: 'https://www.instagram.com/heirzmusic/',
-    },
-    {
-      service: 'facebook',
-      icon: 'social_svg/Facebook.svg',
-      link: 'https://www.facebook.com/HEIRZmusic',
-    },
-    {
-      service: 'soundcloud',
-      icon: 'social_svg/Soundcloud.svg',
-      link: 'https://soundcloud.com/HEIRZ',
-    },
-    {
-      service: 'twitter',
-      icon: 'social_svg/Twitter.svg',
-      link: 'https://twitter.com/HEIRZBass',
-    },
-  ];
-
+const SocialToolBar = ({ socials }) => {
   return (
     <div>
       <div className=' flex justify-center p-2 pt-8 text-white'>

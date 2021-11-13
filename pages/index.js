@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import SoundCloudPlayer from 'react-player/soundcloud';
-import BandsInTown from '../components/BandsInTown';
-
 import PressShot from '../components/PressShot';
 import SoundcloudPlayer from '../components/SoundcloudPlayer';
 
@@ -14,7 +11,6 @@ export default function Home() {
       </Head>
       <PressShot />
       <SoundcloudPlayer />
-      <BandsInTown />
     </div>
   );
 }

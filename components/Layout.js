@@ -11,6 +11,10 @@ const Layout = ({ children }) => {
     setIsOpen(!isOpen);
   };
 
+  const clickOut = () => {
+    setIsOpen(true);
+  };
+
   const socials = [
     {
       service: 'instagram',
@@ -35,13 +39,13 @@ const Layout = ({ children }) => {
   ];
 
   return (
-    <div className='relative h-auto bg-black'>
-      <NavBar toggle={toggle} />
-      <DropDownMenu isOpen={isOpen} toggle={toggle} />
-      <div className='container mx-auto' onClick={toggle}>
-        {children}
+    <div className='container bg-black'>
+      <div className='mx-auto h-full'>
+        <NavBar toggle={toggle} />
+        <DropDownMenu isOpen={isOpen} toggle={toggle} />
+        <div onClick={clickOut}>{children}</div>
+        <Footer socials={socials} />
       </div>
-      <Footer socials={socials} />
     </div>
   );
 };

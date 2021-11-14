@@ -1,6 +1,4 @@
 import ContactForm from './ContactForm';
-import ContactPageLogo from './ContactPageLogo';
-
 import { useState } from 'react';
 
 const Contact = () => {
@@ -20,8 +18,6 @@ const Contact = () => {
         </h1>
       )}
       <ContactForm toggleFormMessage={toggleFormMessage} />
-
-      <ContactPageLogo />
     </div>
   );
 };

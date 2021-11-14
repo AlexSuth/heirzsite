@@ -3,7 +3,7 @@ import Link from 'next/link';
 const SocialToolBar = ({ socials }) => {
   return (
     <div>
-      <div className=' flex justify-center p-2 pt-8 text-white'>
+      <div className=' flex justify-center  text-white'>
         {socials.map((social, index) => (
           <Link key={index} href={social.link}>
             <img
@@ -14,9 +14,6 @@ const SocialToolBar = ({ socials }) => {
           </Link>
         ))}
       </div>
-      <h1 className='p-2 pb-8 text-xs flex justify-center px-16 text-white'>
-        Alex Sutherland Design
-      </h1>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ContactPageLogo = () => {
+const FooterLogo = () => {
   return (
-    <div className='flex justify-center p-2'>
+    <div className='flex justify-center'>
       <img
         className='w-6/12 filter grayscale '
         src='/heirzwhite.png'
@@ -12,4 +12,4 @@ const ContactPageLogo = () => {
   );
 };
 
-export default ContactPageLogo;
+export default FooterLogo;

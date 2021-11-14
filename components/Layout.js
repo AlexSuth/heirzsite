@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
   ];
 
   return (
-    <div className='container bg-black'>
+    <div className='font-mono container bg-black'>
       <div className='mx-auto h-full'>
         <NavBar toggle={toggle} />
         <DropDownMenu isOpen={isOpen} toggle={toggle} />

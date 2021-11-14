@@ -1,4 +1,5 @@
 import ContactForm from './ContactForm';
+import LiveShot from './LiveShot';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -18,6 +19,7 @@ const Contact = () => {
         </h1>
       )}
       <ContactForm toggleFormMessage={toggleFormMessage} />
+      <LiveShot />
     </div>
   );
 };

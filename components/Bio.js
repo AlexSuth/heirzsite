@@ -4,11 +4,11 @@ const Bio = () => {
       <figure>
         <div className='px-6 space-y-4'>
           <img
-            className='w-10/12 mx-auto filter grayscale border-double border-4 border-light-blue-500'
+            className='w-11/12 mx-auto filter grayscale border-double border-4 border-light-blue-500'
             src='/heirzabout.jpg'
             alt=''
           />
-          <p className='px-2 text-white'>
+          <p className='px-3 text-white'>
             HEIRZ is an experimental bass music duo boasting a powerful sound
             that represents the culmination of 4 years of collaboration between
             PNW based producers Buckets and Saman. Wielding over 25 years of
@@ -22,7 +22,7 @@ const Bio = () => {
             indicates an increasingly bright and promising future for the
             freshly minted project.
           </p>
-          <p className='px-2 text-white'>
+          <p className='px-3 text-white'>
             HEIRZ may draw inspiration from modern day artists like as Shades, G
             JONES, Tsuruda and Bleep Bloop, but at their core, HEIRZ unique
             style is fueled by punk rock, metal, video game soundtracks, hip

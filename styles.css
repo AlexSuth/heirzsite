@@ -3,7 +3,4 @@
 @tailwind utilities;
 
 @layer utilities {
-  p {
-    text-indent: 1%;
-  }
 }

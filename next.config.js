@@ -2,9 +2,13 @@ module.exports = {
   async redirects() {
     return [
       {
+        source: '/HEIRZToTheThrone',
+        destination: 'https://fanlink.to/HEIRZToTheThrone',
+        permanent: true,
+      },
+      {
         source: '/throne',
-        destination:
-          'https://soundcloud.com/heirz/heirz-to-the-throne-v1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+        destination: 'https://fanlink.to/HEIRZToTheThrone',
         permanent: true,
       },
     ];
